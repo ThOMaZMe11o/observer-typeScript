@@ -7,11 +7,13 @@ let observador1 = new Observador('observador 1')
 let observador2 = new Observador('observador 2')
 let observador3 = new Observador('observador 3')
 let observador4 = new Observador('observador 4')
+let observador5 = new Observador('observador 5')
 
 observado.incluirAssinante(observador1)
 observado.incluirAssinante(observador2)
 observado.incluirAssinante(observador3)
 observado.incluirAssinante(observador4)
+observado.incluirAssinante(observador5)
 
 observado.inserirDados = ['dado 1',' dado 2']
 
